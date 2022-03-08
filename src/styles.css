@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.heading {
+  background-color: lightgray;
+  font-weight: 300;
+  color: rgb(87, 84, 84);
+  text-align: left;
+  padding: 0.2em;
+}
+
+.listContainer {
+  display: flex;
+  margin: 1em;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.addListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: rgb(167, 178, 179);
+}
+
+.addList {
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.listItem {
+  background-color: lightgray;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
